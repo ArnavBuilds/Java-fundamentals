@@ -13,6 +13,7 @@ public class StringMethods {
         System.out.println("Trimmed name :"+trimmed);//cuts the spaces trims it .
         String city ="Nagpur";
         String substring =city.substring(2,5);
-        System.out.println("words from index 2 to 4 are :"+substring);
+        System.out.println("words from index 2 to 4 are :"+substring);//prints gpu
+
     }
 }
