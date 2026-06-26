@@ -20,9 +20,16 @@ public class Loops {
 
     // For loop - (initializtion,condition,increment/decrement);
 
-    for(int a = 0; a<=11;a++) {
-        System.out.println(a);
-    }
+    //for(int a = 0; a<=11;a++) {
+      //  System.out.println(a);
+
+        // NESTED LOOP - loop inside loop is called as nested loop.
+
+        for (int i=1;i<=5;i++){
+            for (int j=1;j<=5;j++){
+                System.out.println(i+"*"+j+" = "+i*j);
+            }
+        }
    }
 }
 
